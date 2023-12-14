@@ -12,6 +12,10 @@
             </div>
         @endif
 
+        <div>
+            <h1 class="mb-5 font-medium text-2xl text-center text-green-600">LOGIN</h1>
+        </div>
+
         <form method="POST" action="{{ route('login') }}">
             @csrf
 
@@ -44,5 +48,10 @@
                 </x-button>
             </div>
         </form>
+
+        <div>
+            <p class="mt-10 mb-0 font-medium text-xs text-center text-gray-600">Not a member? <a class="text-blue-600" href="register">Sign up now</a></p>
+        </div>
+
     </x-authentication-card>
 </x-guest-layout>

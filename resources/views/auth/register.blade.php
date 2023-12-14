@@ -4,6 +4,10 @@
             <x-authentication-card-logo />
         </x-slot>
 
+        <div>
+            <h1 class="mb-5 font-medium text-2xl text-center text-green-600">REGISTER</h1>
+        </div>
+
         <x-validation-errors class="mb-4" />
 
         <form method="POST" action="{{ route('register') }}">

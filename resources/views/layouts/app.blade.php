@@ -20,7 +20,7 @@
     <!-- Styles -->
     @livewireStyles
 </head>
-<body class="font-sans antialiased">
+<body class="font-sans antialiased main-layout">
     <x-banner />
 
     <div class="min-h-screen bg-gray-100">
